@@ -1,5 +1,5 @@
 <?php
-namespace Kaizen\Survey;
+namespace Katana\Survey;
 
 
 class SurveyService
