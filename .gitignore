@@ -1,0 +1,37 @@
+# Composer dependencies
+/vendor/
+/composer.lock
+
+# Package-level vendor directories (just in case)
+packages/*/vendor/
+packages/*/composer.lock
+
+# PHPUnit test results
+.phpunit.result.cache
+coverage/
+tests/output/
+
+# PHPStan cache
+phpstan.cache
+
+# CodeSniffer reports
+phpcs.xml
+phpcbf.xml
+
+# Logs
+*.log
+
+# IDE & editor files
+/.idea/
+/.vscode/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Node modules (if you later add frontend)
+node_modules/
+/ec-cube2/*
+/eccube2_boilerplate/*

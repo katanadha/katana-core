@@ -1,0 +1,20 @@
+{
+    "name": "katana_dha/katana-core",
+    "description": "Kaizen Monorepo (development root)",
+    "require": {
+        "php": "^7.2",
+        "symfony/dependency-injection": "^5.0"
+    },
+    "require-dev": {
+        "monorepo-php/monorepo": "^12.4",
+        "symplify/monorepo-builder": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Katana\\Survey\\": "packages/survey/src/src"
+        }
+    },
+    "replace": {
+        "katana_dha/survey": "self.version"
+    }
+}
