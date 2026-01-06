@@ -44,10 +44,11 @@ return static function (ContainerConfigurator $containerConfigurator): void {
     /** release workers - in order to execute */
     $services->set(UpdateReplaceReleaseWorker::class);
     $services->set(SetCurrentMutualDependenciesReleaseWorker::class);
+    $services->set(SetNextMutualDependenciesReleaseWorker::class);
     $services->set(AddTagToChangelogReleaseWorker::class);
     $services->set(TagVersionReleaseWorker::class);
     $services->set(PushTagReleaseWorker::class);
-    $services->set(SetNextMutualDependenciesReleaseWorker::class);
+    // $services->set(SetNextMutualDependenciesReleaseWorker::class);
     $services->set(UpdateBranchAliasReleaseWorker::class);
     $services->set(PushNextDevReleaseWorker::class);
 
