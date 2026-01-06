@@ -1,5 +1,5 @@
 {
-    "name": "katana_dha/katana-core",
+    "name": "katanadha/katana-core",
     "description": "Kaizen Monorepo (development root)",
     "require": {
         "php": "^7.2 || ^8.0|| ^8.2",
@@ -15,6 +15,6 @@
         }
     },
     "replace": {
-        "katana_dha/survey": "1.0.13"
+        "katanadha/survey": "1.0.0"
     }
 }
