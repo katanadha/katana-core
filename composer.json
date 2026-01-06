@@ -15,6 +15,6 @@
         }
     },
     "replace": {
-        "katana_dha/survey": "self.version"
+        "katana_dha/survey": "1.0.0"
     }
 }

@@ -1,0 +1,1 @@
+vendor/bin/monorepo-builder release v1.0
