@@ -1,6 +1,6 @@
 {
-    "name": "katanadha/katana-core",
-    "description": "Katana Monorepo (development root)",
+    "name": "kaizen-nexus/dojo",
+    "description": "kaizen-nexus Monorepo (development root)",
     "require": {
         "php": "^7.2 || ^8.0|| ^8.2"
     },
@@ -10,10 +10,10 @@
     },
     "autoload": {
         "psr-4": {
-            "Katana\\Survey\\": "packages/survey/src/src"
+            "KaizenNexus\\Survey\\": "packages/survey/src"
         }
     },
     "replace": {
-        "katanadha/survey": "1.0.6"
+        "kaizen-nexus/survey": "1.0.6"
     }
 }
