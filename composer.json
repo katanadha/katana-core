@@ -11,7 +11,8 @@
     "autoload": {
         "psr-4": {
             "KaizenNexus\\Survey\\": "packages/survey/src",
-            "KaizenNexus\\Core\\": "packages/core/src/"
+            "KaizenNexus\\Core\\": "packages/core/src/",
+            "KaizenNexus\\Scalfold\\": "packages/scalfold/src/"
         }
     },
     "replace": {

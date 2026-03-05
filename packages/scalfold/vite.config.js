@@ -9,12 +9,12 @@ export default defineConfig({
     cors: true
   },
   build: {
-    outDir: path.join(__dirname, "dist"),
+    outDir: path.join(__dirname, "html/kaizen-nexus/dist"),
     emptyOutDir: true,
     manifest: true,
     rollupOptions: {
         input: {
-            style: path.resolve(__dirname, 'assets/css/tailwind.css'),
+            style: path.resolve(__dirname, 'html/kaizen-nexus/assets/css/tailwind.css'),
         }
     }
   }

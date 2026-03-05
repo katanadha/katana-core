@@ -3,9 +3,9 @@
 
 require __DIR__ . '/../../../vendor/autoload.php';
 
-use KaizenNexus\Core\Application;
-use KaizenNexus\Core\Context\Context;
+use KaizenNexus\Core\Console\Application;
 
+use KaizenNexus\Core\Context\Context;
 $options = getopt('', ['data-dir:']);
 
 if (!isset($options['data-dir'])) {
@@ -14,6 +14,9 @@ if (!isset($options['data-dir'])) {
     $options['data-dir'] = 'data/downloads/module';
 }
 
-$context = new Context($options['data-dir']);
-$app = new Application($context);
-exit($app->run($argv));
+// $context = new Context($options['data-dir']);
+// $app = new Application($context);
+// exit($app->run($argv));
+
+$app = new Application();
+$app->run();
